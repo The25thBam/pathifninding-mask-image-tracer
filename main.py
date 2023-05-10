@@ -98,7 +98,7 @@ def create_gif(mask_path, real_path, max_combinations=0, return_to_origin=False,
     imageio.mimsave('output.gif', frames)
 
 
-create_gif('mask.png', 'mask.png', max_combinations=0,
+create_gif('mask.png', 'real.png', max_combinations=0,
            return_to_origin=True,
            dot_speed=1,
            dot_size=0.0025,
